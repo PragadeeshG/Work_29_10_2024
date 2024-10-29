@@ -1,0 +1,16 @@
+create table if not exists neptune_amazon_grpah_query_language(
+data_neptune_id bigint not null,
+cypher_query_language varchar(255) null,
+gremlin_query_language varchar(255) null,
+sparql_query_language varchar(255) null,
+where_component varchar(255) null,
+create_function varchar(255) null,
+merge_function varchar(255) null,
+string_aggregation varchar(255) null,
+csv_import_normal varchar(255) null,
+csv_import_with_cypher varchar(255) null,
+load_csv_normal varchar(255) null,
+load_csv_with_cypher varchar(255) null,
+start_and_set_goals varchar(255) null,
+for_each_syntax varchar(255) null,
+constraint neptune_amazon_grpah_query_language_pk primary key(data_neptune_id));
